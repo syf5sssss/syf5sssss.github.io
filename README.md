@@ -31,3 +31,13 @@ npm run dev
 ```sh
 npm run build
 ```
+
+### commit 
+
+```
+$ git add .
+$ git commit -m "test 2"
+$ git push origin master
+$ git subtree push --prefix dist origin gh-pages
+
+```
