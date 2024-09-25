@@ -1,28 +1,27 @@
 <script setup lang="ts">
 
-import DataView from 'primevue/dataview';
-import Button from 'primevue/button';
-import Chip from 'primevue/chip';
 import TabPanel from 'primevue/tabpanel';
 import TabPanels from 'primevue/tabpanels';
 import Tabs from 'primevue/tabs';
 import Tab from 'primevue/tab';
 import TabList from 'primevue/tablist';
-import Tag from 'primevue/tag';
 import Avatar from 'primevue/avatar';
-import Panel from 'primevue/panel';
-import { linkdata } from './link';
-
-function save(item: any) {
-  window.open(item.url, "_blank");
-  // window.location.href = item.url; http://www.baidu.com可以跳转，www.baidu.com不能跳转，会停留在原页面，地址栏改为 http://localhost:5173/www.baidu.com
-}
-
-import { ref, onMounted } from "vue";
-
-onMounted(() => {
-});
-
+import { home_navigation } from './links/home_navigation';
+import { home_common } from './links/home_common';
+import { home_tool } from './links/home_tool';
+import { home_work } from './links/home_work';
+import { program_code } from './links/program_code';
+import { program_back } from './links/program_back';
+import { program_front } from './links/program_front';
+import { program_study } from './links/program_study';
+import { design_frame } from './links/design_frame';
+import { design_print } from './links/design_print';
+import { makerdata } from './links/maker';
+import { fun_game } from './links/fun_game';
+import { fun_video } from './links/fun_video';
+import { fun_music } from './links/fun_music';
+import { unfileddata } from './links/unfiled';
+import PanelLink from './component/PanelLink.vue';
 
 </script>
 
@@ -55,68 +54,39 @@ onMounted(() => {
       </Tab>
 
     </TabList>
-
     <TabPanels class="m-0 p-0">
+      <!-- 主页 -->
       <TabPanel value="0" class="m-0">
-        <Panel class="mb-1 mt-4">
-          <DataView :value="linkdata" layout="grid">
-            <template #grid="slotProps">
-              <div class="grid">
-                <div class="col-1" v-for="(item, index) in slotProps.items" :key="index">
-                  <Tag severity="success" @click="save(item)">
-                    <img :src="item.src" style="width: 18px" />
-                    <span>{{ item.title }}</span>
-                  </Tag>
-                </div>
-              </div>
-            </template>
-          </DataView>
-        </Panel>
+        <PanelLink :data="home_navigation" title="导航" />
+        <PanelLink :data="home_common" title="常用" />
+        <PanelLink :data="home_work" title="工作" />
+        <PanelLink :data="home_tool" title="工具" />
       </TabPanel>
+      <!-- 编程 -->
       <TabPanel value="1" as="p" class="m-0">
-        <Panel class="mb-1 mt-2">
-          <DataView :value="linkdata" layout="grid">
-            <template #grid="slotProps">
-              <div class="grid">
-                <div class="col-1" v-for="(item, index) in slotProps.items" :key="index">
-                  <Chip :label="item.title" :style="{ height: '28px', paddingLeft: 0, paddingRight: 1 }">
-                    <img :src="item.src" :style="{ width: '18px', height: '18px' }" />
-                    <span style="font-size: 12px;  text-align: left;">
-                      {{ item.title }}
-                    </span>
-                  </Chip>
-                </div>
-              </div>
-            </template>
-          </DataView>
-        </Panel>
+        <PanelLink :data="program_code" title="代码" />
+        <PanelLink :data="program_back" title="后端" />
+        <PanelLink :data="program_front" title="页面" />
+        <PanelLink :data="program_study" title="学习" />
       </TabPanel>
+      <!-- 设计 -->
       <TabPanel value="2" as="p" class="m-0">
-        <Panel class="mb-1 mt-2">
-          <DataView :value="linkdata" layout="grid">
-            <template #grid="slotProps">
-              <div class="grid">
-                <div class="col-1" v-for="(item, index) in slotProps.items" :key="index">
-                  <Button outlined style="height: 30px;padding-left: 0;padding-right: 1;">
-                    <img :src="item.src" style="height: 20px; " />
-                    <span :style="{ fontSize: item.fontsize + 'px', textAlign: 'left' }">
-                      {{ item.title }}
-                    </span>
-                  </Button>
-                </div>
-              </div>
-            </template>
-          </DataView>
-        </Panel>
+        <PanelLink :data="design_frame" title="画面" />
+        <PanelLink :data="design_print" title="打印" />
       </TabPanel>
+      <!-- 创客 -->
       <TabPanel value="3" as="p" class="m-0">
-
+        <PanelLink :data="makerdata" title="创客" />
       </TabPanel>
+      <!-- 摸鱼 -->
       <TabPanel value="4" as="p" class="m-0">
-
+        <PanelLink :data="fun_video" title="视频" />
+        <PanelLink :data="fun_music" title="音乐" />
+        <PanelLink :data="fun_game" title="游戏" />
       </TabPanel>
+      <!-- 未分类 -->
       <TabPanel value="5" as="p" class="m-0">
-
+        <PanelLink :data="unfileddata" title="未分类" />
       </TabPanel>
     </TabPanels>
   </Tabs>
