@@ -21,7 +21,7 @@ import { fun_game } from './links/fun_game';
 import { fun_video } from './links/fun_video';
 import { fun_music } from './links/fun_music';
 import { unfileddata } from './links/unfiled';
-import PanelLink from './component/PanelLink.vue';
+import PanelLink from './components/PanelLink.vue';
 
 </script>
 
