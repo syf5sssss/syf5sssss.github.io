@@ -54,4 +54,9 @@ export const home_tool =
         src: '/processOn.ico',
         url: 'https://www.processon.com/',
         fontsize: 12
+    }, {
+        title: '万能兔',
+        src: '/wntool.ico',
+        url: 'https://www.wntool.com/',
+        fontsize: 12
     }];

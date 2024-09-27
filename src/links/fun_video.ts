@@ -49,4 +49,14 @@ export const fun_video =
         src: '/lidilidi.ico',
         url: 'https://www.dilidiliw.com/',
         fontsize: 12
+    }, {
+        title: '4k影视',
+        src: '/4kvm.png',
+        url: 'https://www.4kvm.site/',
+        fontsize: 12
+    }, {
+        title: 'HDmoli',
+        src: '/hdmoli.ico',
+        url: 'https://www.hdmoli.pro/',
+        fontsize: 12
     }];

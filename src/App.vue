@@ -10,6 +10,7 @@ import { home_navigation } from './links/home_navigation';
 import { home_common } from './links/home_common';
 import { home_tool } from './links/home_tool';
 import { home_work } from './links/home_work';
+import { home_about } from './links/home_about';
 import { program_code } from './links/program_code';
 import { program_back } from './links/program_back';
 import { program_front } from './links/program_front';
@@ -21,12 +22,18 @@ import { fun_game } from './links/fun_game';
 import { fun_video } from './links/fun_video';
 import { fun_music } from './links/fun_music';
 import { unfileddata } from './links/unfiled';
+import { command } from './text/command';
 import PanelLink from './components/PanelLink.vue';
+import AccordionText from './components/AccordionText.vue';
+import Accordion from 'primevue/accordion';
+import AccordionPanel from 'primevue/accordionpanel';
+import AccordionHeader from 'primevue/accordionheader';
+import AccordionContent from 'primevue/accordioncontent';
 
 </script>
-
+<!-- class="border-1" style="border: 2px solid #4CAF50; border-radius: 5px;" -->
 <template>
-  <Tabs value="0" class="border-1" style="border: 2px solid #4CAF50; border-radius: 5px;">
+  <Tabs value="0">
     <TabList>
       <Tab value="0" as="div" class="flex items-center gap-2">
         <Avatar image="/lufei.jpg" shape="circle" />
@@ -52,7 +59,10 @@ import PanelLink from './components/PanelLink.vue';
         <Avatar image="/folangqi.jpg" shape="circle" />
         <span class="font-bold whitespace-nowrap">未分类</span>
       </Tab>
-
+      <Tab value="6" as="div" class="flex items-center gap-2">
+        <Avatar image="/shenping.jpg" shape="circle" />
+        <span class="font-bold whitespace-nowrap">命令</span>
+      </Tab>
     </TabList>
     <TabPanels class="m-0 p-0">
       <!-- 主页 -->
@@ -61,6 +71,7 @@ import PanelLink from './components/PanelLink.vue';
         <PanelLink :data="home_common" title="常用" />
         <PanelLink :data="home_work" title="工作" />
         <PanelLink :data="home_tool" title="工具" />
+        <PanelLink :data="home_about" title="关于" />
       </TabPanel>
       <!-- 编程 -->
       <TabPanel value="1" as="p" class="m-0">
@@ -87,6 +98,10 @@ import PanelLink from './components/PanelLink.vue';
       <!-- 未分类 -->
       <TabPanel value="5" as="p" class="m-0">
         <PanelLink :data="unfileddata" title="未分类" />
+      </TabPanel>
+      <!-- 命令 -->
+      <TabPanel value="6" as="p" class="m-0">
+        <AccordionText :data="command" />
       </TabPanel>
     </TabPanels>
   </Tabs>

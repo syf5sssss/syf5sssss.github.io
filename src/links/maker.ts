@@ -60,6 +60,11 @@ export const makerdata =
         url: 'https://www.jlc.com/',
         fontsize: 12
     }, {
+        title: '嘉立创开源',
+        src: '/oshwhub.ico',
+        url: 'https://oshwhub.com/',
+        fontsize: 12
+    }, {
         title: 'Tensorflow',
         src: '/tensorflow.png',
         url: 'https://tensorflow.google.cn/?hl=zh-cn',
@@ -68,5 +73,10 @@ export const makerdata =
         title: 'arduino实验室',
         src: '/arduino.ico',
         url: 'https://arduino.nxez.com/',
+        fontsize: 12
+    }, {
+        title: 'aimrt 机器人框架',
+        src: '',
+        url: 'https://docs.aimrt.org/index.html',
         fontsize: 12
     }];
