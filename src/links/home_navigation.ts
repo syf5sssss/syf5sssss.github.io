@@ -9,4 +9,9 @@ export const home_navigation =
         src: '/axu.ico',
         url: 'https://axutongxue.com/',
         fontsize: 11
+    }, {
+        title: 'TYM的小破站',
+        src: '/tym.ico',
+        url: 'https://tyaming.com/',
+        fontsize: 11
     }];

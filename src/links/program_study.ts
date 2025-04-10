@@ -30,6 +30,11 @@ export const program_study =
         url: 'https://www.liaoxuefeng.com/',
         fontsize: 12
     }, {
+        title: '老陈打码',
+        src: '/laochendama.png',
+        url: 'https://www.cpengx.cn/',
+        fontsize: 12
+    }, {
         title: 'Cocos',
         src: '/cocos.ico',
         url: 'https://www.cocos.com/',
@@ -43,5 +48,10 @@ export const program_study =
         title: 'Opencv zip',
         src: '/opencv.ico',
         url: 'https://opencv.org/releases/',
+        fontsize: 11
+    }, {
+        title: 'Unity实时开发平台',
+        src: '/unity.ico',
+        url: 'https://unity.com/cn',
         fontsize: 11
     }];

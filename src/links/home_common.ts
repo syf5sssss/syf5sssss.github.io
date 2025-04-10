@@ -34,4 +34,19 @@ export const home_common =
         src: '/kimi.ico',
         url: 'https://kimi.moonshot.cn/',
         fontsize: 12
+    }, {
+        title: 'DeepSeek',
+        src: '/deepseek.svg',
+        url: 'https://chat.deepseek.com/',
+        fontsize: 12
+    }, {
+        title: '豆包',
+        src: '/doubao.png',
+        url: 'https://www.doubao.com/chat/',
+        fontsize: 12
+    }, {
+        title: '知乎直答',
+        src: '/zhzd.png',
+        url: 'https://zhida.zhihu.com/',
+        fontsize: 12
     }];

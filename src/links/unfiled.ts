@@ -10,11 +10,6 @@ export const unfileddata =
         url: 'https://www.ngrok.cc/',
         fontsize: 12
     }, {
-        title: 'MSDN系统',
-        src: '/msdn.ico',
-        url: 'https://msdn.itellyou.cn/',
-        fontsize: 12
-    }, {
         title: '中国软考',
         src: '/ruankao.png',
         url: 'https://www.ruankao.org.cn/',
@@ -48,11 +43,6 @@ export const unfileddata =
         title: 'tight VNC',
         src: '/tightvnc.ico',
         url: 'https://www.tightvnc.com/',
-        fontsize: 12
-    }, {
-        title: '微pe系统',
-        src: '/wepe.ico',
-        url: 'https://www.wepe.com.cn/',
         fontsize: 12
     }, {
         title: 'dbeaver',
@@ -90,11 +80,6 @@ export const unfileddata =
         url: 'http://www.duchulai.com/#',
         fontsize: 12
     }, {
-        title: 'ventoy系统',
-        src: '/ventoy.ico',
-        url: 'https://www.ventoy.net/cn/index.html',
-        fontsize: 12
-    }, {
         title: '上海黄金交易',
         src: '',
         url: 'https://www.sge.com.cn/',
@@ -120,8 +105,8 @@ export const unfileddata =
         url: 'http://www.zxcs.info/',
         fontsize: 8
     }, {
-        title: '淘宝官网',
-        src: '/taobao.svg',
-        url: 'https://www.taobao.com/',
+        title: '中国统计年鉴',
+        src: '/statusgov.ico',
+        url: 'https://www.stats.gov.cn/sj/ndsj/',
         fontsize: 12
     }];

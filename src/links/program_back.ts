@@ -40,6 +40,21 @@ export const program_back =
         url: 'https://mvnrepository.com/',
         fontsize: 11
     }, {
+        title: 'Gradle-plugin',
+        src: '/gradle.png',
+        url: 'https://plugins.gradle.org/',
+        fontsize: 11
+    }, {
+        title: 'Gradle',
+        src: '/gradleorg.ico',
+        url: 'https://gradle.org/',
+        fontsize: 11
+    }, {
+        title: 'Crates.io',
+        src: '/cratesio.ico',
+        url: 'https://crates.io/',
+        fontsize: 11
+    }, {
         title: 'ABP 框架',
         src: '/abp.png',
         url: 'https://abp.io/',

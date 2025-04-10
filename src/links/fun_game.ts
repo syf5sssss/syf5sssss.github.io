@@ -29,4 +29,14 @@ export const fun_game =
         src: '/taptap.ico',
         url: 'https://www.taptap.cn/',
         fontsize: 12
+    }, {
+        title: '在线玩老游戏',
+        src: '/zaixianwan.svg',
+        url: 'https://zaixianwan.app/',
+        fontsize: 12
+    }, {
+        title: 'steamDB',
+        src: '/vector_prefers_schema.svg',
+        url: 'https://steamdb.info/',
+        fontsize: 12
     }];
