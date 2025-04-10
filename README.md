@@ -36,5 +36,8 @@ npm run build
 
 ```
 $ git subtree push --prefix dist origin gh-pages
+上面的命令有可能不管用，手动将build后的dist文件夹的文件覆盖到分支gh-pages项目上，
+然后提交gh-pages分支的代码也可以。
+VSCode 左下角的分支切换比较方便
 
 ```
