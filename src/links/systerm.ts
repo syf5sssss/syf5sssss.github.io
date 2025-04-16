@@ -19,4 +19,9 @@ export const systermdata =
         src: '/winux.png',
         url: 'https://winuxos.com/',
         fontsize: 12
+    }, {
+        title: 'Ubuntu',
+        src: '/ubuntu.ico',
+        url: 'https://cn.ubuntu.com/server',
+        fontsize: 12
     }];
