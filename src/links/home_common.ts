@@ -10,7 +10,7 @@ export const home_common =
         url: 'https://fanyi.baidu.com/',
         fontsize: 12
     }, {
-        title: '',
+        title: '百科',
         src: '/logo-baike.svg',
         url: 'https://baike.baidu.com/',
         fontsize: 12

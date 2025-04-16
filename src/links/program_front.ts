@@ -1,6 +1,6 @@
 export const program_front =
     [{
-        title: '',
+        title: 'hugo',
         src: '/hugo-logo-wide.svg',
         url: 'https://gohugo.io/',
         fontsize: 12
