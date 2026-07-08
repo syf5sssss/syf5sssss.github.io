@@ -84,4 +84,14 @@ export const program_back =
         src: '/spring.svg',
         url: 'https://spring.io/projects/spring-boot',
         fontsize: 11
+    }, {
+        title: 'JetBrains',
+        src: '/jetBrains.ico',
+        url: 'https://www.jetbrains.com.cn/',
+        fontsize: 11
+    }, {
+        title: 'PyTorch',
+        src: '/pytorch.webp',
+        url: 'https://pytorch.org/',
+        fontsize: 11
     }];

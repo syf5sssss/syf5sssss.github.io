@@ -5,40 +5,35 @@ export const home_work =
         url: 'https://mail.qq.com/',
         fontsize: 12
     }, {
-        title: '公司邮箱',
-        src: '/origincell.ico',
-        url: 'https://mail.origincell.com/',
-        fontsize: 12
-    }, {
         title: '公司网站',
-        src: '/origincellhome.png',
+        src: '/biobank.svg',
         url: 'https://www.origincell.com/',
-        fontsize: 12
-    }, {
-        title: '360考评',
-        src: '/origincellhome.png',
-        url: 'http://kp.origincell.com:8081/cana_hr/main.jsp',
-        fontsize: 12
-    }, {
-        title: '公司门户',
-        src: '/origincellhome.png',
-        url: 'http://oa.origincell.com/login/Login.jsp',
-        fontsize: 12
-    }, {
-        title: '禅道',
-        src: '/candao.png',
-        url: 'http://172.168.53.120:81',
-        fontsize: 12
-    }, {
-        title: 'GitLab',
-        src: '/gitlab.png',
-        url: 'http://172.168.53.166/',
         fontsize: 12
     }, {
         title: '原能生物',
         src: '/biobank.svg',
         url: 'https://www.bio-bank.com/',
         fontsize: 10
+    }, {
+        title: '艾尔温',
+        src: '/ikelvin.ico',
+        url: 'http://ikelvinbio.com/',
+        fontsize: 12
+    }, {
+        title: '基点',
+        src: '/genepoint.ico',
+        url: 'https://www.genepoint.cn/',
+        fontsize: 12
+    }, {
+        title: '酷复德检测',
+        src: '/kufferath.ico',
+        url: 'https://www.kufferath-group.com/',
+        fontsize: 12
+    }, {
+        title: 'Gitea',
+        src: '/gitea.svg',
+        url: 'http://192.168.161.88:3000/',
+        fontsize: 12
     }, {
         title: '长风网',
         src: '/cfw.ico',

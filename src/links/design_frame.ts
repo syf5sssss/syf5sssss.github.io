@@ -74,4 +74,14 @@ export const design_frame =
         src: '/iconify.svg',
         url: 'https://icon-sets.iconify.design/',
         fontsize: 12
+    }, {
+        title: 'MahApps',
+        src: '/mahapps.ico',
+        url: 'https://mahapps.com/',
+        fontsize: 12
+    }, {
+        title: 'Icones',
+        src: '/iconesdark.svg',
+        url: 'https://icones.js.org/',
+        fontsize: 12
     }];

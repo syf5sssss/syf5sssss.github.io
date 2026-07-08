@@ -109,4 +109,19 @@ export const unfileddata =
         src: '/statusgov.ico',
         url: 'https://www.stats.gov.cn/sj/ndsj/',
         fontsize: 12
+    }, {
+        title: '中国财务部',
+        src: '/5a.ico',
+        url: 'https://www.mof.gov.cn/index.htm',
+        fontsize: 12
+    }, {
+        title: 'KingFast',
+        src: '/kingfast.ico',
+        url: 'https://kingfast.space/',
+        fontsize: 12
+    }, {
+        title: 'PixPin截图',
+        src: '/pixpin.ico',
+        url: 'https://pixpin.cn/',
+        fontsize: 11
     }];

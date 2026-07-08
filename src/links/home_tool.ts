@@ -59,4 +59,14 @@ export const home_tool =
         src: '/wntool.ico',
         url: 'https://www.wntool.com/',
         fontsize: 12
+    }, {
+        title: '批量重命名',
+        src: '/rename.ico',
+        url: 'https://rename.jgrass.xyz/',
+        fontsize: 12
+    }, {
+        title: '文本对比工具',
+        src: '',
+        url: 'https://www.889sw.com/html-tools/tools/text-diff/app.html',
+        fontsize: 11
     }];

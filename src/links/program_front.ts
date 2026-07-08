@@ -119,4 +119,9 @@ export const program_front =
         src: '/jquerychajian.png',
         url: 'https://www.jq22.com/',
         fontsize: 12
+    }, {
+        title: 'HandyOrg',
+        src: '/handyorg.png',
+        url: 'https://handyorg.github.io/handycontrol/quick_start/',
+        fontsize: 12
     }];

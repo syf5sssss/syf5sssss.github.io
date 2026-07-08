@@ -23,8 +23,11 @@ export const command =
             'npm create vite@latest  //创建一个基于vite的项目',
             'npm i pnpm -g //安装',
             'npm install npm -g //升级npm',
+            'npm install vue@latest  //升级vue',
+            'npm install @vitejs/plugin-vue@latest -D  //升级vite vue 插件',
             'pnpm -v //查看版本',
             'pnpm add -g pnpm to update //升级',
+            'pnpm self-update  //升级自己',
             'pnpm config get registry //查看源',
             'pnpm config set registry https://registry.npmmirror.com //切换源',
             'pnpm install //安装项目依赖',
@@ -34,7 +37,15 @@ export const command =
             'http-server --cors  //运行dist所在的vue项目打包文件',
             'npm run tauri android init  //初始化项目android相关资源',
             'npm run tauri dev  //运行tauri项目',
-            'npm run tauri android dev  //运行项目为android'
+            'npm run tauri android dev  //运行项目为android',
+            'Set-ExecutionPolicy RemoteSigned -Scope CurrentUser  //管理员身份打开PowerShell,修改执行策略,弹出提示输入 Y 回车确认，解决npm命令.ps1 脚本报错',
+            'Remove-Item -Recurse -Force node_modules    //删除损坏的依赖文件夹',
+            'Remove-Item package-lock.json    //删除锁文件',
+            'npm cache clean --force    //清空npm全局缓存',
+            'npm install    //完整重新安装所有依赖',
+            'npm run build-only    //先打包，不校验',
+            'npm run type-check    //手动类型检查',
+            'npm install xxx --save-dev 等价简写 npm install xxx -D  //手动安装xxx依赖',
         ]
     }, {
         value: '2',
@@ -89,6 +100,9 @@ export const command =
             'git branch -dr dev  //删除远程分支',
             'Untracked  //没有被跟踪，表示新建的文件没有添加到暂存区',
             'committed  //待提交，表示文件在暂存区等待提交',
+            'git fetch origin --prune  //同步远程分支清单',
+            'git branch -r  //查看远程分支',
+            'git checkout -b dev origin/dev    //生产本地dev分支并关联远程',
             ''
         ]
     }, {

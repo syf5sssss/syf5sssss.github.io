@@ -10,4 +10,16 @@ export const program_tool =
         src: '/wand.ico',
         url: 'https://imagemagick.org/',
         fontsize: 12
+    },
+    {
+        title: 'Alize 开源扬声器识别',
+        src: '',
+        url: 'https://alize.univ-avignon.fr/',
+        fontsize: 10
+    },
+    {
+        title: 'Ultralytics 视觉平台',
+        src: '/ustcmirror.png',
+        url: 'https://www.ultralytics.com/zh',
+        fontsize: 10
     }];

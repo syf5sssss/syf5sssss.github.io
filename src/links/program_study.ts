@@ -54,4 +54,14 @@ export const program_study =
         src: '/unity.ico',
         url: 'https://unity.com/cn',
         fontsize: 11
+    }, {
+        title: '胡工科技',
+        src: '/hgkj.ico',
+        url: 'http://www.hsltechnology.cn/Home/Download',
+        fontsize: 11
+    }, {
+        title: 'Ghost1372',
+        src: '',
+        url: 'https://ghost1372.github.io/',
+        fontsize: 11
     }];

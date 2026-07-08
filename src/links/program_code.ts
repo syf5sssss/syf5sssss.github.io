@@ -55,8 +55,23 @@ export const program_code =
         url: 'https://websim.ai/',
         fontsize: 12
     }, {
-        title: '云代码',
+        title: 'Yun Code',
         src: '/yundaima.ico',
         url: 'https://yuncode.net/',
         fontsize: 12
+    }, {
+        title: 'AtomGit',
+        src: '/atomgit.png',
+        url: 'https://gitcode.com/',
+        fontsize: 12
+    }, {
+        title: 'USTC Mirror',
+        src: '/ustcmirror.png',
+        url: 'https://mirrors.ustc.edu.cn/',
+        fontsize: 11
+    }, {
+        title: '阿里巴巴镜像',
+        src: '/albb.ico',
+        url: 'https://developer.aliyun.com/mirror/',
+        fontsize: 11
     }];
